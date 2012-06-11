@@ -6,6 +6,13 @@
   Don't change this file!
 --]]
 
+-- get $HOME
+local f = io.popen("echo -n $HOME")
+local l = f:read("*a")
+f:close()
+-- fix include path
+package.path = package.path .. ";" .. l .. "/.imapfilter/?.lua"
+
 require "init/base"
 
 ---------------
