@@ -1,3 +1,11 @@
+--[[
+  Don't change this file!
+  Don't change this file!
+  Don't change this file!
+  Don't change this file!
+  Don't change this file!
+--]]
+
 require "init/base"
 
 ---------------
@@ -33,9 +41,7 @@ require "init/functions"
 --  Sort Functions  --
 ----------------------
 
-require "sort/foo"
-require "sort/gmail"
-require "sort/bar"
+require "sort"
 
 
 -----------
