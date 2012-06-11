@@ -1,0 +1,13 @@
+This is my framework that I've written to use imapfilter ( https://github.com/lefcha/imapfilter ).
+
+In "options.lua" I set the known global options from imapfilter.
+In addition I put some new global options for my framework there.
+For example the path to the file with the encrypted passwords.
+
+
+"accounts.lua" includes the login information and in which order
+imapfilter has to go through all the accounts ( my.lis array ).
+Also this file includes which sort() function has to be used with an account.
+
+"sort.lua" just has the include instructions for the sort() functions in it.
+I recommend to put these in "sort/${accountname}.lua".
