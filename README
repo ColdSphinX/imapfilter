@@ -6,7 +6,7 @@ For example the path to the file with the encrypted passwords.
 
 
 "accounts.lua" includes the login information and in which order
-imapfilter has to go through all the accounts ( my.lis array ).
+imapfilter has to go through all the accounts ( "my.list" array ).
 Also this file includes which sort() function has to be used with an account.
 
 "sort.lua" just has the include instructions for the sort() functions in it.
